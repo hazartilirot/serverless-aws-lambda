@@ -3,7 +3,6 @@
 const emojis = [
   '😀', '😁', '☺', '😉', '😍', '🔶', '🔷', '🚀'
 ]
-// https://somehash.execute-api.eu-central-1.amazonaws.com/rank?rank=7
 
 module.exports.rank = async (event) => {
   const rank = event.queryStringParameters.rank;
